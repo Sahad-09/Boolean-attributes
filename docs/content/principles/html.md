@@ -25,6 +25,7 @@ path: principles/html
 ## Boolean attributes
 
 Many attributes don't require a value to be set, like `checked`, so don't set them.
+Note: Boolean attributes are false by default.
 
 ```html inert=true
 <input type="checkbox" value="1" checked>
